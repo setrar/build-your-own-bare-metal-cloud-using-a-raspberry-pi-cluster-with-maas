@@ -12,13 +12,17 @@ This procedure explains how to flash the latest EEPROM firmware and to configure
 sudo snap install rpi-imager
 ```
 
-Choose OS -> Raspberry Pi OS (other) -> Raspberry Pi OS Lite (32-bit)
-Choose SD Card, then WRITE
-Boot your rpi, find the ip address (looking for lease in dhcp server log, in your router web page, etc.), then ssh with password: ‘raspberry’, then update and upgrade, then reboot
+- [ ] Choose OS -> Raspberry Pi OS (other) -> Raspberry Pi OS Lite (32-bit)
+- [ ] Choose SD Card, then WRITE
+- [ ] Boot your rpi, find the ip address (looking for lease in dhcp server log, in your router web page, etc.), then ssh with password: ‘raspberry’, then update and upgrade, then reboot
+
+```
 ssh pi@<ip_addr_of_your_rpi>
 sudo apt-get update
 sudo apt-get upgrade
 sudo reboot
+```
+
 Check the latest stable eeprom fw on github, project raspberrypi, rpi-eeprom/tree/master/firmware/stable (at the time of writing this doc, it was pieeprom-2020-07-16.bin and set the variable accordingly
 PI_EEPROM_VERSION=pieeprom-2020-07-16
 
