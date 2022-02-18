@@ -63,3 +63,37 @@ BOOT_ORDER=0x21
 ```
 
 `Note:` BOOT_ORDER should be 0x21 to allow network boot.
+
+
+https://discourse.maas.io/t/provisioning-of-raspberry-pi-4-with-maas/2243/12
+
+I got my pi4 cluster to PXE boot similar to @dbruno74’s #3 method but using iSCSI instead of NFS. I have been unable to login to either SSH or the console using ubuntu:ubuntu until I realized that user-data is not being read at all. To work around this, I did the following steps:
+
+- [ ] Boot the pi 4 (so that ubuntu gets created)
+- [ ] Turn off the pi
+- [ ] Load the iSCSI block device on another Ubuntu machine
+- [ ] Mount the writable partition to /mnt
+- [ ] Append my pubkey to /mnt/home/ubuntu/.ssh/authorized_keys
+- [ ] Unmount and disconnect iSCSI block device
+- [ ] Restart pi 4
+
+At this point the Pi boots successfully and I’m able to SSH to the Pi
+
+What am I missing here? My user-data contains:
+
+```
+#cloud-config
+
+chpasswd:
+  expire: true
+  list:
+  - ubuntu:ubuntu
+
+ssh_pwauth: false
+
+ssh_import_id:
+- gh:relaxdiego
+
+runcmd:
+- [ touch, /tmp/last-user-data-run ]
+```
