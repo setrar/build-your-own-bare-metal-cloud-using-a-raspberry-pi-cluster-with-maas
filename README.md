@@ -97,3 +97,7 @@ ssh_import_id:
 runcmd:
 - [ touch, /tmp/last-user-data-run ]
 ```
+
+# References
+
+- [ ] [Giles Knap - Documentation and configuration for my attempt to bootstrap configure my home cluster from a github repo](https://github.com/gilesknap/IaC-at-home)
