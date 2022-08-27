@@ -436,8 +436,6 @@ Scroll down and click the green Continue button.
 
 The next screen you should see is the Images screen. Make sure ARM64 is ticked, then click update selection, followed by continue.
 
-[:x: Google 403. That’s an error.](https://lh6.googleusercontent.com/jfBRDUeknq8-Gk4c3YYPVVMmq0VRSvY0hJcWSaz43OcDOXFshQdMMOn-e3Q_Ue5fqu-9YDSQra2HUaqYof0A29vggPkYil7aWZzYB0KZTKPcnulmMBaeCZdTATxjrAM09AwjXaEf) ACL Denied `That’s all we know.`
-
 <img src="https://lh6.googleusercontent.com/jfBRDUeknq8-Gk4c3YYPVVMmq0VRSvY0hJcWSaz43OcDOXFshQdMMOn-e3Q_Ue5fqu-9YDSQra2HUaqYof0A29vggPkYil7aWZzYB0KZTKPcnulmMBaeCZdTATxjrAM09AwjXaEf" width=624 height=476 > </img>
 
 You should then see a screen asking for some SSH keys. If you have launchpad or github, you can specify your username here and MAAS will automatically import your public key. Otherwise, you can generate a keypair in a terminal window:
@@ -446,33 +444,22 @@ You should then see a screen asking for some SSH keys. If you have launchpad or 
 - [ ] generate a key-pair: `ssh-keygen -t rsa -b 4096`
 - [ ] run `cat ~/.ssh/id_rsa.pub`, carefully copy the displayed key, and paste it into the MAAS interface in your browse by selecting “Upload” under Source:
 
-[:x: Google 403. That’s an error.](https://lh6.googleusercontent.com/jfBRDUeknq8-Gk4c3YYPVVMmq0VRSvY0hJcWSaz43OcDOXFshQdMMOn-e3Q_Ue5fqu-9YDSQra2HUaqYof0A29vggPkYil7aWZzYB0KZTKPcnulmMBaeCZdTATxjrAM09AwjXaEf) ACL Denied `That’s all we know.`
-
 <img src="https://lh4.googleusercontent.com/o9nZL1f43dt4XcXQNv6g7iaE4r4kYiCwTA6dBP6UOhmAPIVKvMGyTSdgf95jnfvOx59RWsDaGPgWzuo2wPYZAjoCA0Pnk9ur-qZZaFMsOj28yh88tdbtHQ6X4aA0_V1WI20QWdI1" width=605 height=500 > </img>
 
 - [ ] click the green import button
 - [ ] click the green go to dashboard button, and you should find yourself on the main machines page: 
 
-[:x: Google 403. That’s an error.](https://lh3.googleusercontent.com/UaFmxqMFyL1Dv4aP0FfGmT9lR5OJ4Hpv0_Aw_ygLqWDdnozdBOVxx7rB5aonTtp3rElDwHgvm2rTPCnBhSkFcBe5ON4-F9t0Qh0g_jVJPhZdZxVoziPYaPdfWBMreQvNX7SNJXyW) ACL Denied `That’s all we know.`
-
 <img src="https://lh3.googleusercontent.com/UaFmxqMFyL1Dv4aP0FfGmT9lR5OJ4Hpv0_Aw_ygLqWDdnozdBOVxx7rB5aonTtp3rElDwHgvm2rTPCnBhSkFcBe5ON4-F9t0Qh0g_jVJPhZdZxVoziPYaPdfWBMreQvNX7SNJXyW" width=605 height=500 > </img>
 
 - [ ] Check the ARM64 image has synchronised by clicking on the Images tab:
-
-[:x: Google 403. That’s an error.](https://lh5.googleusercontent.com/XrZDfvDYv1nNZ3UfcXGAyEKmQiUF5dSxlQTvsDbx3JESwql2VCVL9oGoyag5pbJHWW6HjWkYnBi_HNhYrsr4ybbC37CnR9Y3Kd2c_7DrzzoMj1tKqEez6sc74abbnTCGysN1hhuj) ACL Denied `That’s all we know.`
 
 <img src="https://lh5.googleusercontent.com/XrZDfvDYv1nNZ3UfcXGAyEKmQiUF5dSxlQTvsDbx3JESwql2VCVL9oGoyag5pbJHWW6HjWkYnBi_HNhYrsr4ybbC37CnR9Y3Kd2c_7DrzzoMj1tKqEez6sc74abbnTCGysN1hhuj" class="d-lazyload d-lazyload-hidden" width=624 height=265 > </img>
 
 Click settings in the top right, then commissioning. Make sure 20.04 focal is selected, and that the hwe kernel is selected as the default minimum kernel version. Once done, click save:
 
-
-[:x: Google 403. That’s an error.](https://lh4.googleusercontent.com/nQy1IsbMF4pMhsUi6PW95h-aZzVGrFZtEYXyjBmpNgBIlKVvqJiTERgsIow_hVuoiirjxOVt5nHBzJf7KtmkvFmzHDZ__JGU88z6kEWWjt7FxuqSoThxQaNjnpbrD0wS1212Qs7t) ACL Denied `That’s all we know.`
-
 <img src="https://lh4.googleusercontent.com/nQy1IsbMF4pMhsUi6PW95h-aZzVGrFZtEYXyjBmpNgBIlKVvqJiTERgsIow_hVuoiirjxOVt5nHBzJf7KtmkvFmzHDZ__JGU88z6kEWWjt7FxuqSoThxQaNjnpbrD0wS1212Qs7t" width=624 height=420 > </img>
 
 Click deploy on the left menu, make sure 20.04 focal is selected, and click save if needed:
-
-[:x: Google 403. That’s an error.](https://lh3.googleusercontent.com/wAGPfDCnzR1mdm9CEaSiuFSfiKFDWVGXXmQoQF3uc0QiCdj-fa9uAqFfOwkYCjBUW5kS-6dNxSTgWALStl_vdF1YEX48WJm84MV_qy7jeIKCMDRlGhlpBR7u1DiadDcemdbs8yyf) ACL Denied `That’s all we know.`
 
 <img src="https://lh3.googleusercontent.com/wAGPfDCnzR1mdm9CEaSiuFSfiKFDWVGXXmQoQF3uc0QiCdj-fa9uAqFfOwkYCjBUW5kS-6dNxSTgWALStl_vdF1YEX48WJm84MV_qy7jeIKCMDRlGhlpBR7u1DiadDcemdbs8yyf" width=624 height=200 > </img>
 
@@ -495,16 +482,18 @@ Enable DHCP by clicking the Enable DHCP button:
 
 Ensure that the MAAS provides DHCP checkbox is ticked, and click the green Configure MAAS managed DHCP button:
 
+<img src="https://lh4.googleusercontent.com/RwPWSZNTWRa6J9Yb766EJAXFkXWbaf7-QQ4QTGhsDZKZUUkNhgzbKKXIuK5g0IaC50a9gdBkhKrTmobxJJ_uZ6DZQ7dOOL1z6QdMcBb0YBYLzJK2vg0b82KD-ILyFUf3hJKAEZtv" width=624 height=161 > </img>
 
+## Commission and deploy your RPi(s)
 
-Commission and deploy your RPi(s)
 By this stage, you should have:
 
-maas power installed and running on your control server
-a network with your RPi(s) & control server connected to it
-RPis configured with UEFI on their SD cards, and a USB stick attached
-a router with internet access on the network, and with DHCP server disabled on it’s LAN port
-MAAS installed and configured on your control server
+1. maas power installed and running on your control server
+1. a network with your RPi(s) & control server connected to it
+1. RPis configured with UEFI on their SD cards, and a USB stick attached
+1. a router with internet access on the network, and with DHCP server disabled on it’s LAN port
+1. MAAS installed and configured on your control server
+
 This means you’re ready to try commissioning and deploying Ubuntu to the RPIs using MAAS!
 
 Restart your RPi(s). It might pay to watch them boot using a screen. You should see output similar to the below photos:
