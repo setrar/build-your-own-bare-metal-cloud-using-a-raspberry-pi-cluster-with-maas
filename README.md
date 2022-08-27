@@ -33,7 +33,7 @@ Thanks to community members Giles, lory696, someo_new and others, these problems
 
 
 
-In this tutorial, we will put all their efforts together and show you how to build your own small, fully managed bare metal Raspberry Pi cluster. When you’re finished with this tutorial, you’ll be at a point where you can install microK8s so that you end up with a fully functioning Kubernetes cluster that is ready to be managed by any tool you like, such as Juju.
+In this tutorial, we will put all their efforts together and show you how to build your own small, fully managed bare metal Raspberry Pi cluster. When you’re finished with this tutorial, you’ll be at a point where you can install [microK8s](https://microk8s.io) so that you end up with a fully functioning Kubernetes cluster that is ready to be managed by any tool you like, such as Juju.
 
 This tutorial is not meant to be exhaustive for all the possible ways to build a cluster, but should teach you all the basics needed in order for you to try other techniques. For example, perhaps you’d like to use a PoE switch instead of the UUGear Mega4 USB hub used in this tutorial. At the end, you might end up with something that looks a bit like this:
 
