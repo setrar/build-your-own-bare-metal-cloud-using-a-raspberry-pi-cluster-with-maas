@@ -23,7 +23,7 @@ Duration: 1:00
 
 These days it’s everybody’s dream to build their own bare metal K8s cluster. Whether it’s for learning purposes, running Blender, or even building out production infrastructure, people love running their own clusters.
 
-The Raspberry Pi 4 (RPi) with it’s relatively fast CPU cores, up to 8 GB of RAM, and tiny physical footprint presents a great option to run a cluster on. Provisioning all those RPis can be a pain however, and people have wanted to use tools like MAAS 5.
+The Raspberry Pi 4 (RPi) with it’s relatively fast CPU cores, up to 8 GB of RAM, and tiny physical footprint presents a great option to run a cluster on. Provisioning all those RPis can be a pain however, and people have wanted to use tools like [MAAS](https://maas.io/) 5.
 
 For years the community has wondered how to use MAAS with RPis, but hasn’t quite cracked it - until now, that is. Two problems needed to be overcome to use MAAS with RPis:
 
