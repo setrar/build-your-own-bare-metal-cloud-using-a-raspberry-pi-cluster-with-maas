@@ -295,7 +295,8 @@ Connect your UUGear hub to your control server. Make sure you have a power suppl
 
 Not shown in the picture above, but obviously needed, is an ethernet connection to your switch from each RPi.
 
-Install maaspower
+## Install maaspower
+
 Based on the instructions on this page, we can install maaspower. This involves creating a python virtual environment, activating it, installing maaspower, and verifying that it works.
 
 We will install it in our home directory - using a terminal on your control server:
@@ -311,9 +312,11 @@ Verify it worked with maaspower –version. We won’t try to start maaspower ye
 
 Note that, if you leave your terminal and come back later, you will need to activate the virtual environment again: source ~/maaspower/bin/activate.
 
-Configure maaspower
+## Configure maaspower
+
 We need to configure maaspower so that it can map REST calls from MAAS to physical ports on the MEGA4. The configuration file needed might look like the following if you have two RPis. Notice the subtle difference in the uhubctl commands, with the -p parameter controlling which physical USB port is being referenced.
 
+```yaml
 # yaml-language-server: $schema=maaspower.schema.json
 # NOTE: above relative path to a schema file from 'maaspower schema <filename>'
 name: my maaspower control webhooks
@@ -338,19 +341,24 @@ devices:
     query: uhubctl -p 2
     query_on_regex: .*power$
     query_off_regex: .*off$
+```
+
 In this tutorial, maaspower runs on the same host as MAAS - so the listening ip_address can be restricted to 127.0.0.1. You could make this 0.0.0.0 if you wanted to run it on a separate machine, which would cause it to listen on any IP address.
 
-Copy and paste the configuration above into a file on your control server. This tutorial uses: ~/maaspower/maaspower.cfg. Edit it and add more ports if you like.
+Copy and paste the configuration above into a file on your control server. This tutorial uses: `~/maaspower/maaspower.cfg`. Edit it and add more ports if you like.
 
 You’re ready to run maaspower. Make sure you have your python virtual environment activated first:
 
+```bash
 cd ~
 source maaspower/bin/activate
 sudo maaspower/bin/maaspower run maaspower/maaspower.cfg
+```
 You can stop it with ctrl-c.
 
 To persist over reboots of your control server, create a systemd service:
 
+```bash
 bash -c 'cat <<'EOF' > maaspower.service
 [Unit]
 Description=maaspower daemon
@@ -365,16 +373,21 @@ sudo systemctl daemon-reload
 sudo systemctl enable maaspower.service
 sudo systemctl start maaspower.service
 sudo systemctl status maaspower.service
-Install and configure MAAS
+```
+
+## Install and configure MAAS
+
 Duration: 10:00
 
-Install MAAS
+### Install MAAS
+
 Now that maaspower is configured and running on your control server, you can install & configure MAAS.
 
 First, open a terminal or ssh to your control server.
 
 To install MAAS, you can do so easily with the following commands. Change the password if desired:
 
+```bash
 export INTERFACE=$(ip route | grep default | cut -d ' ' -f 5)
 export IP_ADDRESS=$(ip -4 addr show dev $INTERFACE | grep -oP '(?<=inet\s)\d+(\.\d+){3}')
 sudo snap install maas
@@ -391,9 +404,12 @@ maas admin maas set-config name=upstream_dns value=8.8.8.8
 
 # make MAAS more tolerant of the RPis in case they are too slow:
 maas admin maas set-config name=node_timeout value=90
+```
+
 MAAS should now be running, and we can now configure it via the GUI.
 
-Configure MAAS
+### Configure MAAS
+
 Follow these steps carefully, as each of them need to be performed accurately.
 
 From your control server, open a browser and navigate to http://localhost:5240. Note - if you are accessing your control server from a different machine, you need to replace localhost with your control server’s IP address.
