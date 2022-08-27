@@ -269,7 +269,7 @@ Ensure the 3GB RAM limit is disabled:
 
 Under Boot Maintenance Manager -> Boot Options -> Change Boot Order specify PXEv4 as the first boot option:
 
-<img src=images/IMG_4901.JPEG width=512 height=384 > </img>
+<img src=images/IMG_4902.JPEG width=512 height=384 > </img>
 
 Commit all changes, and exit. Make sure you save any configuration if asked.
 
