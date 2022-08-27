@@ -125,10 +125,12 @@ sda           8:0    1   1.9G  0 disk
 nvme0n1     259:0    0 931.5G  0 disk 
 ├─nvme0n1p1 259:1    0     1M  0 part 
 └─nvme0n1p2 259:2    0 931.5G  0 part /
-Here we can see it is sda based off the disk size beacause we know the USB stick is 2GB in size.
 ```
 
-Option 1 - Ubuntu 20.04 - Download the card maker script and run it
+Here we can see it is sda based off the disk size beacause we know the USB stick is 2GB in size.
+
+### Option 1 - Ubuntu 20.04 - Download the card maker script and run it
+
 This option will give you a UEFI card that will work with Ubuntu 20.04 only.
 
 :warning: If you want to use 21.10 then choose Option 2 below. Don’t do both Option 1 and Option 2 .
