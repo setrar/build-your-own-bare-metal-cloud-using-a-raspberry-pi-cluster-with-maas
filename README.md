@@ -11,8 +11,8 @@ Taken from the below blogs:
 - [ ] [Provisioning of Raspberry Pi 4 with MAAS](https://discourse.maas.io/t/provisioning-of-raspberry-pi-4-with-maas/2243)
 
 
-| Table of Contents |
-|-|
+| Table of Contents              |
+|--------------------------------|
 | [Overview](README.md#Overview) |
 
 ## Overview
@@ -41,7 +41,8 @@ This tutorial is provided “as is” and with no warranty. It makes use of the 
 
 With the above disclaimer out of the way, let’s get started!
 
-What you’ll learn
+## What you’ll learn
+
 Duration: 0:30
 
 In this tutorial you will learn:
