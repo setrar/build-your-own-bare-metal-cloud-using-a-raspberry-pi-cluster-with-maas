@@ -2,7 +2,13 @@
 
 Taken from the below blogs:
 
-:warning: The purpose of this repository is to experience the blog (along with images) below while waiting for Canonical to fix the Anton Smith's personal page who left for [SpectroCloud](https://www.spectrocloud.com/)
+:warning: The purpose of this repository is to go through the blog (refreshin the missing images) below while waiting for Canonical to fix the Anton Smith's personal page who left for [SpectroCloud](https://www.spectrocloud.com/)
+
+When clicking on the missing images, the links say : 
+
+[:x: Google 403. That’s an error.](https://lh6.googleusercontent.com/oTmC7A5FY8IeQtYdUKj8gcKH4fZ9X-7hg0X9eISV3E3NP0iZgljwCblFHnV8SUP0U01sCJx-_eRP00DD-8w9Ab3BH1JmJpD5qHGK2_Hl16LEp3ViSYiGuNmi1ddvcuWUCTXtzBgv) ACL Denied `That’s all we know.`
+
+They are linked to Anton Smith's Google Account
 
 - [ ] [billwear 6 Jun yep, looks like it was in his user content, which is now blocked. i’ll have to get with IS, sorry about that.](https://discourse.maas.io/t/build-your-own-bare-metal-cloud-using-a-raspberry-pi-cluster-with-maas/5845/8)
 
@@ -288,8 +294,6 @@ Duration: 10:00
 
 As an example, a flow for turning one of the RPis on would look like this:
 
-[:x: Google 403. That’s an error.](https://lh6.googleusercontent.com/oTmC7A5FY8IeQtYdUKj8gcKH4fZ9X-7hg0X9eISV3E3NP0iZgljwCblFHnV8SUP0U01sCJx-_eRP00DD-8w9Ab3BH1JmJpD5qHGK2_Hl16LEp3ViSYiGuNmi1ddvcuWUCTXtzBgv) ACL Denied `That’s all we know.`
-
 <img src="https://lh6.googleusercontent.com/oTmC7A5FY8IeQtYdUKj8gcKH4fZ9X-7hg0X9eISV3E3NP0iZgljwCblFHnV8SUP0U01sCJx-_eRP00DD-8w9Ab3BH1JmJpD5qHGK2_Hl16LEp3ViSYiGuNmi1ddvcuWUCTXtzBgv" width=624 height=177 > </img>
 
 ### Connect your UUGear hub
@@ -483,12 +487,11 @@ Now we need to configure DHCP on MAAS. Until now, DHCP should have been supplied
 
 Once you’ve disabled DHCP on your router, click on Subnets in the menu at the top. Identify your subnet, and then click on the link under the VLAN column:
 
-[:x: Google 403. That’s an error.](https://lh6.googleusercontent.com/mOx_fL5YQK7WhhfV5sutat2s01Djg9aL6mqmVe5-9VDlXq4VSaR_DkfdcwfItbUX-oFjWBGUUTfKvjDcYQoMzYQxeVFTZmhOUsHTOdq31e3iS-jtrvzcuRXBL0xS2tOMn9ztR-qU) ACL Denied `That’s all we know.`
-
 <img src="https://lh6.googleusercontent.com/mOx_fL5YQK7WhhfV5sutat2s01Djg9aL6mqmVe5-9VDlXq4VSaR_DkfdcwfItbUX-oFjWBGUUTfKvjDcYQoMzYQxeVFTZmhOUsHTOdq31e3iS-jtrvzcuRXBL0xS2tOMn9ztR-qU" alt="" width="624" height="141">
 
 Enable DHCP by clicking the Enable DHCP button:
 
+<img src="https://lh4.googleusercontent.com/NhwvpVjLnlHi4RQSk5AliZuhwG4ZTM530EtHs5FhT2Pj97mk6rjzhEb0PHsJo_Cu0NIlNquMzWTRncUBBNIzXCG885dyPBvQ8_iWNp3s8raKWsWifOY53_7I1utuWIPnCl-v8LGT" alt="" width="624" height="65">
 
 Ensure that the MAAS provides DHCP checkbox is ticked, and click the green Configure MAAS managed DHCP button:
 
