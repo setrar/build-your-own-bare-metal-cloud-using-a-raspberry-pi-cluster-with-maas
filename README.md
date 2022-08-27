@@ -2,9 +2,10 @@
 
 Taken from the below blogs:
 
+[Build your own bare metal cloud using a Raspberry Pi cluster with MAAS](https://discourse.maas.io/t/build-your-own-bare-metal-cloud-using-a-raspberry-pi-cluster-with-maas/5845)
+
 [Provisioning of Raspberry Pi 4 with MAAS](https://discourse.maas.io/t/provisioning-of-raspberry-pi-4-with-maas/2243)
 
-[Build your own bare metal cloud using a Raspberry Pi cluster with MAAS](https://discourse.maas.io/t/build-your-own-bare-metal-cloud-using-a-raspberry-pi-cluster-with-maas/5845)
 
 ## 3.1 Setting-up rpi4 for network boot
 
