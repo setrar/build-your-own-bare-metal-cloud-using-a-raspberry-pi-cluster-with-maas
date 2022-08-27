@@ -68,7 +68,7 @@ You will need:
 
 - [ ] a UUGear Mega4 10, which we will use for controlling power to the RPis. The UUGear hub should be connected to your control server via its USB uplink port. 
 
-<img src=images/02-600x600.jpeg width=300 heigth=300 > </img>
+<img src=images/02-600x600.jpeg width=300 height=300 > </img>
 
 - [ ] an optional male-female USB-A cable to connect the control server to the UUGear hub
 
@@ -79,7 +79,7 @@ You will need:
 A good quality 5V 10A (50W) supply soldered directly to the power rails - for 4 RPIs. e.g. https://uk.rs-online.com/web/p/embedded-switch-mode-power-supplies-smps/1618278 9
 This RS power supply Part No. 161-8278 has been tested with MEGA4 and 4 RPIs
 
-<img src=images/RS-161-8278.png width= heigth= > </img>
+<img src=images/RS-161-8278.png width="" height="" > </img>
 
 
 A switch with enough ports to connect the control server, the RPis, and a router
