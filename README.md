@@ -2,7 +2,7 @@
 
 Taken from the below blogs:
 
-:warning: Recreating the blog while waiting for Canonical to fix the Anton Smith's personal page who left for [SpectroCloud](https://www.spectrocloud.com/)
+:warning: The purpose of this repository is to experience the blog (along with images) below while waiting for Canonical to fix the Anton Smith's personal page who left for [SpectroCloud](https://www.spectrocloud.com/)
 
 - [ ] [billwear 6 Jun yep, looks like it was in his user content, which is now blocked. i’ll have to get with IS, sorry about that.](https://discourse.maas.io/t/build-your-own-bare-metal-cloud-using-a-raspberry-pi-cluster-with-maas/5845/8)
 
