@@ -14,6 +14,7 @@ Taken from the below blogs:
 | Table of Contents              |
 |--------------------------------|
 | [Overview](README.md#Overview) |
+| [What you'll learn](README.md#what-youll-learn)  |
 
 ## Overview
 Duration: 1:00
