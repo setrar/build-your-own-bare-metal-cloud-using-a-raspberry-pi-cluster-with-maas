@@ -462,6 +462,9 @@ You should then see a screen asking for some SSH keys. If you have launchpad or 
 Click settings in the top right, then commissioning. Make sure 20.04 focal is selected, and that the hwe kernel is selected as the default minimum kernel version. Once done, click save:
 
 
+[:x: Google 403. That’s an error.](https://lh4.googleusercontent.com/nQy1IsbMF4pMhsUi6PW95h-aZzVGrFZtEYXyjBmpNgBIlKVvqJiTERgsIow_hVuoiirjxOVt5nHBzJf7KtmkvFmzHDZ__JGU88z6kEWWjt7FxuqSoThxQaNjnpbrD0wS1212Qs7t) ACL Denied `That’s all we know.`
+
+<img src="https://lh4.googleusercontent.com/nQy1IsbMF4pMhsUi6PW95h-aZzVGrFZtEYXyjBmpNgBIlKVvqJiTERgsIow_hVuoiirjxOVt5nHBzJf7KtmkvFmzHDZ__JGU88z6kEWWjt7FxuqSoThxQaNjnpbrD0wS1212Qs7t" width=624 height=420 > </img>
 
 Click deploy on the left menu, make sure 20.04 focal is selected, and click save if needed:
 
