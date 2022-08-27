@@ -275,7 +275,8 @@ Commit all changes, and exit. Make sure you save any configuration if asked.
 
 Power off the RPi, we’ll turn it on later once MAAS is ready.
 
-Install and configure maaspower
+### Install and configure maaspower
+
 Duration: 10:00
 
 maaspower 3 was created by Giles. maaspower does the following things:
