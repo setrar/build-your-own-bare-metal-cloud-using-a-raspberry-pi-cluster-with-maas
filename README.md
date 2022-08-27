@@ -217,11 +217,13 @@ ubuntu@proud-possum:~$
 ### Option 2 - Ubuntu 21.10 - Download the card maker script and run it
 It is possible to use Ubuntu 21.10, but it requires a little bit more work. To get it to work, we have to alter the UEFI image with an updated DTB that matches the 21.10 kernel. It means we will:
 
-Download the UEFI RPi image
-Download the a deb package from Ubuntu and extract the DTB needed
-Replace the DTB file and then create the SD card
+ - [ ] Download the UEFI RPi image
+ - [ ] Download the a deb package from Ubuntu and extract the DTB needed
+ - [ ] Replace the DTB file and then create the SD card
+
 :warning: This tutorial was written for 20.04 Focal. If you choose to use 21.10, then in all the sections below where 20.04 is referenced, you should change it to use 21.10. For example, syncing 21.10 images, deploying 21.10, etc.
 
+```bash
 ubuntu@proud-possum:~$ curl -LO https://raw.githubusercontent.com/gilesknap/IaC-at-home/main/nas/03-maas/uefi.make.sh
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
@@ -251,7 +253,10 @@ rm -r foo
 # run uefi maker
 export DISK=/dev/sda
 bash uefi-make.sh rpi4-impish.zip
-Boot the RPi from the new card and configure it
+```
+
+### Boot the RPi from the new card and configure it
+
 Insert your newly created SD card into your RPi.
 
 Power your RPi off, and on again. Immediately push the escape key when it boots and you should enter the UEFI menu:
