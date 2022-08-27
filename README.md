@@ -261,7 +261,7 @@ Insert your newly created SD card into your RPi.
 
 Power your RPi off, and on again. Immediately push the escape key when it boots and you should enter the UEFI menu:
 
-<img src=images/IMG_4900.JPEG width=2048 height=1536 > </img>
+<img src=images/IMG_4900.JPEG width=512 height=384 > </img>
 
 Ensure the 3GB RAM limit is disabled:
 
