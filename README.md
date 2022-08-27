@@ -425,6 +425,8 @@ Log in with the username admin and password admin, and you should be greeted wit
 
 <img src="https://lh6.googleusercontent.com/jfBRDUeknq8-Gk4c3YYPVVMmq0VRSvY0hJcWSaz43OcDOXFshQdMMOn-e3Q_Ue5fqu-9YDSQra2HUaqYof0A29vggPkYil7aWZzYB0KZTKPcnulmMBaeCZdTATxjrAM09AwjXaEf" width=624 height=476 > </img>
 
+[:x: Broken Link](https://lh6.googleusercontent.com/jfBRDUeknq8-Gk4c3YYPVVMmq0VRSvY0hJcWSaz43OcDOXFshQdMMOn-e3Q_Ue5fqu-9YDSQra2HUaqYof0A29vggPkYil7aWZzYB0KZTKPcnulmMBaeCZdTATxjrAM09AwjXaEf) ACL Denied `That’s all we know.`
+
 Scroll down and click the green Continue button.
 
 The next screen you should see is the Images screen. Make sure ARM64 is ticked, then click update selection, followed by continue.
