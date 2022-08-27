@@ -423,7 +423,7 @@ Log in with the username admin and password admin, and you should be greeted wit
 
 <img src="images/Screenshot from 2021-10-13 14-43-39.png" width=641 height=500 > </img>
 
-<img src="images/Screenshot from 2021-10-13 14-43-39" width=1266 height=986 > </img>
+<img src="https://lh6.googleusercontent.com/jfBRDUeknq8-Gk4c3YYPVVMmq0VRSvY0hJcWSaz43OcDOXFshQdMMOn-e3Q_Ue5fqu-9YDSQra2HUaqYof0A29vggPkYil7aWZzYB0KZTKPcnulmMBaeCZdTATxjrAM09AwjXaEf" width=624 height=476 > </img>
 
 Scroll down and click the green Continue button.
 
