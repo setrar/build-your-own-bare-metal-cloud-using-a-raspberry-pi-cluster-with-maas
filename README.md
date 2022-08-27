@@ -78,11 +78,8 @@ You will need:
     - [ ] A good quality ‘dumb’ 5V 5A (25W) supply with a USB C converter - for 3 RPIs
 A good quality 5V 10A (50W) supply soldered directly to the power rails - for 4 RPIs. e.g. https://uk.rs-online.com/web/p/embedded-switch-mode-power-supplies-smps/1618278 [9](https://uk.rs-online.com/web/p/embedded-switch-mode-power-supplies-smps/1618278)
     - [ ] This RS power supply Part No. 161-8278 has been tested with MEGA4 and 4 RPIs
-
 <img src=images/RS-161-8278.png width=444 height=339 > </img>
-
-
-A switch with enough ports to connect the control server, the RPis, and a router
+    - [ ] A switch with enough ports to connect the control server, the RPis, and a router
 A router running NAT and with access to the internet, to keep MAAS and the RPIs separated from your home network. Instead of a separate switch and router, you can use a typical wifi router so long as it has enough ethernet ports on it.
 At least one RPI4 for your cluster. Each RPi needs an SD card (the smallest size you can find).
 A USB stick for each RPI4, which will be used for storage by your RPis. Try to use a decent USB stick if storage performance is important to you.
