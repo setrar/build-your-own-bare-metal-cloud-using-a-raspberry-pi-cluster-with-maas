@@ -69,8 +69,10 @@ In order to build your cluster you will need some equipment. You also need to se
 
 You will need:
 
-A spare PC, VM, or RPi to run as a control server. It should have at least 4 GB of RAM and approximately 16 GB of spare disk space. It needs to have at least one spare network interface (ethernet). This server will run MAAS, and host the maaspower service. It will also need python 3.8 or later.
-a UUGear Mega4 10, which we will use for controlling power to the RPis. The UUGear hub should be connected to your control server via its USB uplink port. .
+- [ ] A spare PC, VM, or RPi to run as a control server. It should have at least 4 GB of RAM and approximately 16 GB of spare disk space. It needs to have at least one spare network interface (ethernet). This server will run MAAS, and host the maaspower service. It will also need python 3.8 or later.
+
+- [ ] a UUGear Mega4 10, which we will use for controlling power to the RPis. The UUGear hub should be connected to your control server via its USB uplink port. 
+
 an optional male-female USB-A cable to connect the control server to the UUGear hub
 The Mega4 needs to be powered by one of the following power supplies:
 an external ‘dumb’ power supply - not Power Delivery. Your option will depend on how many RPIs you want to support on each MEGA4 Hub. See here 2 for details
