@@ -76,7 +76,7 @@ You will need:
     - [ ] an external ‘dumb’ power supply - not Power Delivery. Your option will depend on how many RPIs you want to support on each MEGA4 Hub. See here 2 for details
     - [ ] Official Raspberry Pi USB C 15W supply - for 2 RPIs
     - [ ] A good quality ‘dumb’ 5V 5A (25W) supply with a USB C converter - for 3 RPIs
-A good quality 5V 10A (50W) supply soldered directly to the power rails - for 4 RPIs. e.g. https://uk.rs-online.com/web/p/embedded-switch-mode-power-supplies-smps/1618278 9
+A good quality 5V 10A (50W) supply soldered directly to the power rails - for 4 RPIs. e.g. https://uk.rs-online.com/web/p/embedded-switch-mode-power-supplies-smps/1618278 [9](https://uk.rs-online.com/web/p/embedded-switch-mode-power-supplies-smps/1618278)
     - [ ] This RS power supply Part No. 161-8278 has been tested with MEGA4 and 4 RPIs
 
 <img src=images/RS-161-8278.png width=444 height=339 > </img>
