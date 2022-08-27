@@ -17,6 +17,7 @@ Taken from the below blogs:
 | [What you'll learn](README.md#what-youll-learn)  |
 
 ## Overview
+
 Duration: 1:00
 
 These days it’s everybody’s dream to build their own bare metal K8s cluster. Whether it’s for learning purposes, running Blender, or even building out production infrastructure, people love running their own clusters.
@@ -48,14 +49,16 @@ Duration: 0:30
 
 In this tutorial you will learn:
 
-how to choose the right equipment to build a RPi cluster
-how to set up a simple network for your cluster
-how to prepare RPis to be managed by MAAS
-how to install and configure maaspower
-how to install and configure MAAS
-how to use MAAS to manage Raspberry Pis
-how to install microk8s and how to use Juju to control your cluster
-What you’ll need
+- [ ] how to choose the right equipment to build a RPi cluster
+- [ ] how to set up a simple network for your cluster
+- [ ] how to prepare RPis to be managed by MAAS
+- [ ] how to install and configure maaspower
+- [ ] how to install and configure MAAS
+- [ ] how to use MAAS to manage Raspberry Pis
+- [ ] how to install microk8s and how to use Juju to control your cluster
+
+## What you’ll need
+
 Duration: 2:00
 
 In order to build your cluster you will need some equipment. You also need to separate the cluster network from your home network by adding a router running NAT. We will be building something similar to the below:
