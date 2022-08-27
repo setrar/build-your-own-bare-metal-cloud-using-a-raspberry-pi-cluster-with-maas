@@ -68,7 +68,7 @@ You will need:
 
 - [ ] a UUGear Mega4 10, which we will use for controlling power to the RPis. The UUGear hub should be connected to your control server via its USB uplink port. 
 
-![image](images/02-600x600.jpeg)
+<img src=images/02-600x600.jpeg width=600 heigth=600 > </img>
 
 an optional male-female USB-A cable to connect the control server to the UUGear hub
 The Mega4 needs to be powered by one of the following power supplies:
