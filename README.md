@@ -1,5 +1,8 @@
 # provisioning-of-raspberry-pi-4-with-maas
+
 https://discourse.maas.io/t/provisioning-of-raspberry-pi-4-with-maas/2243
+
+https://discourse.maas.io/t/build-your-own-bare-metal-cloud-using-a-raspberry-pi-cluster-with-maas/5845
 
 ## 3.1 Setting-up rpi4 for network boot
 
