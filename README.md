@@ -282,25 +282,28 @@ Duration: 10:00
 
 [maaspower](https://gilesknap.github.io/maaspower/main/index.html) [`3`](https://gilesknap.github.io/maaspower/main/index.html) was created by [Giles](https://discourse.maas.io/u/gilesknap/summary). maaspower does the following things:
 
-Provides a RESTful API interface compatible with the MAAS webhook driver 1
-Supports plugins to perform actions, for example running command line operations, or calling other APIs. These actions can correspond to power on, power off, and query operations
+- [ ] Provides a RESTful API interface compatible with the [MAAS webhook driver](https://maas.io/docs/snap/3.1/ui/power-management#heading--webhook) [`1`](https://maas.io/docs/snap/3.1/ui/power-management#heading--webhook)
+- [ ] Supports plugins to perform actions, for example running command line operations, or calling other APIs. These actions can correspond to `power on`, `power off`, and query operations
+
 As an example, a flow for turning one of the RPis on would look like this:
 
+![image]()
 
+### Connect your UUGear hub
 
-Connect your UUGear hub
 Connect your UUGear hub to your control server. Make sure you have a power supply connected to it as well, this tutorial uses a single official RPi power supply:
 
-
+![image]()
 
 Not shown in the picture above, but obviously needed, is an ethernet connection to your switch from each RPi.
 
-## Install maaspower
+### Install maaspower
 
 Based on the instructions on this page, we can install maaspower. This involves creating a python virtual environment, activating it, installing maaspower, and verifying that it works.
 
 We will install it in our home directory - using a terminal on your control server:
 
+```bash
     sudo apt install python3.8-venv
     cd ~
     mkdir maaspower
@@ -308,6 +311,8 @@ We will install it in our home directory - using a terminal on your control serv
     source ~/maaspower/bin/activate
     pip install --upgrade pip wheel
     python3 -m pip install maaspower
+```
+
 Verify it worked with maaspower –version. We won’t try to start maaspower yet, because we need a config file which we will create below.
 
 Note that, if you leave your terminal and come back later, you will need to activate the virtual environment again: source ~/maaspower/bin/activate.
