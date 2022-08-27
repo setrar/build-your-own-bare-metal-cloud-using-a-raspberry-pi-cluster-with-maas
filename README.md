@@ -127,7 +127,7 @@ nvme0n1     259:0    0 931.5G  0 disk
 └─nvme0n1p2 259:2    0 931.5G  0 part /
 ```
 
-Here we can see it is sda based off the disk size beacause we know the USB stick is 2GB in size.
+Here we can see it is sda based off the disk size because we know the USB stick is 2GB in size.
 
 ### Option 1 - Ubuntu 20.04 - Download the card maker script and run it
 
@@ -135,10 +135,14 @@ This option will give you a UEFI card that will work with Ubuntu 20.04 only.
 
 :warning: If you want to use 21.10 then choose Option 2 below. Don’t do both Option 1 and Option 2 .
 
+```bash
 ubuntu@proud-possum:~$ curl -LO https://raw.githubusercontent.com/gilesknap/IaC-at-home/main/nas/03-maas/uefi.make.sh
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100  1264  100  1264    0     0   5180      0 --:--:-- --:--:-- --:--:--  5159
+```
+
+```bash
 ubuntu@proud-possum:~$ export DISK=/dev/sda
 ubuntu@proud-possum:~$ bash ./uefi.make.sh
 Make a UEFI boot disk for raspberry Pi
@@ -208,7 +212,9 @@ Archive:  ../uefi.firmware.zip
   inflating: firmware/Readme.txt
   inflating: firmware/LICENCE.txt
 ubuntu@proud-possum:~$
-Option 2 - Ubuntu 21.10 - Download the card maker script and run it
+```
+
+### Option 2 - Ubuntu 21.10 - Download the card maker script and run it
 It is possible to use Ubuntu 21.10, but it requires a little bit more work. To get it to work, we have to alter the UEFI image with an updated DTB that matches the 21.10 kernel. It means we will:
 
 Download the UEFI RPi image
