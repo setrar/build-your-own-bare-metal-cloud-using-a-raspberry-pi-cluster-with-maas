@@ -32,13 +32,9 @@ For years the community has wondered how to use MAAS with RPis, but hasn’t qui
 
 Thanks to community members [Giles](https://discourse.maas.io/u/gilesknap/summary), [lory696](https://discourse.maas.io/u/lory696/summary), [someo_new](https://discourse.maas.io/u/someo_new) and others, these problems have been overcome.
 
-
-
 In this tutorial, we will put all their efforts together and show you how to build your own small, fully managed bare metal Raspberry Pi cluster. When you’re finished with this tutorial, you’ll be at a point where you can install [microK8s](https://microk8s.io) so that you end up with a fully functioning Kubernetes cluster that is ready to be managed by any tool you like, such as Juju.
 
 This tutorial is not meant to be exhaustive for all the possible ways to build a cluster, but should teach you all the basics needed in order for you to try other techniques. For example, perhaps you’d like to use a PoE switch instead of the UUGear Mega4 USB hub used in this tutorial. At the end, you might end up with something that looks a bit like this:
-
-
 
 :warning: DISCLAIMER
 This tutorial is provided “as is” and with no warranty. It makes use of the RPi UEFI project and uses the generic ARM64 kernel and image from Canonical. Canonical does not officially support the RPi UEFI project nor does it support using the generic ARM64 kernel and image on Raspberry Pis.
@@ -66,12 +62,13 @@ Duration: 2:00
 In order to build your cluster you will need some equipment. You also need to separate the cluster network from your home network by adding a router running NAT. We will be building something similar to the below:
 
 
-
 You will need:
 
 - [ ] A spare PC, VM, or RPi to run as a control server. It should have at least 4 GB of RAM and approximately 16 GB of spare disk space. It needs to have at least one spare network interface (ethernet). This server will run MAAS, and host the maaspower service. It will also need python 3.8 or later.
 
 - [ ] a UUGear Mega4 10, which we will use for controlling power to the RPis. The UUGear hub should be connected to your control server via its USB uplink port. 
+
+![image](02-600x600.jpeg)
 
 an optional male-female USB-A cable to connect the control server to the UUGear hub
 The Mega4 needs to be powered by one of the following power supplies:
