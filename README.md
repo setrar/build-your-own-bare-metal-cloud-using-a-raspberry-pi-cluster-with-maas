@@ -498,14 +498,14 @@ This means you’re ready to try commissioning and deploying Ubuntu to the RPIs 
 
 Restart your RPi(s). It might pay to watch them boot using a screen. You should see output similar to the below photos:
 
-IMG_4905
-IMG_4905
-2048×1536 643 KB
+<img src="images/IMG_4905.JPEG" width=666 height=500 > </img>
+
 After awhile, you should see your RPi show up in MAAS as a new machine:
 
 
 
-Configure the power driver
+### Configure the power driver
+
 For MAAS to control the power status of the RPi, we need to configure it with a webhook driver that will use the maas power service we created earlier. Click on the machine, then configuration and edit beside the power configuration:
 
 
