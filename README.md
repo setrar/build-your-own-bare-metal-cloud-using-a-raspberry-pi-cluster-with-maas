@@ -287,11 +287,15 @@ Duration: 10:00
 
 As an example, a flow for turning one of the RPis on would look like this:
 
+[:x: Google 403. That’s an error.](https://lh6.googleusercontent.com/oTmC7A5FY8IeQtYdUKj8gcKH4fZ9X-7hg0X9eISV3E3NP0iZgljwCblFHnV8SUP0U01sCJx-_eRP00DD-8w9Ab3BH1JmJpD5qHGK2_Hl16LEp3ViSYiGuNmi1ddvcuWUCTXtzBgv) ACL Denied `That’s all we know.`
+
 <img src="https://lh6.googleusercontent.com/oTmC7A5FY8IeQtYdUKj8gcKH4fZ9X-7hg0X9eISV3E3NP0iZgljwCblFHnV8SUP0U01sCJx-_eRP00DD-8w9Ab3BH1JmJpD5qHGK2_Hl16LEp3ViSYiGuNmi1ddvcuWUCTXtzBgv" width=624 height=177 > </img>
 
 ### Connect your UUGear hub
 
 Connect your UUGear hub to your control server. Make sure you have a power supply connected to it as well, this tutorial uses a single official RPi power supply:
+
+[:x: Google 403. That’s an error.](https://lh5.googleusercontent.com/-ZD30RC-EZIFU0Bfoye9JgJurgUUd7ZAJdeRQEBa1h9s46KExfsl3n35BDe0kMGDM7HYFmO0oilCPG_n9nl4OreXmQJBPJ5J8uWZCt91wDZMB2k7QRPzArveMg87u2ztT8yZKdq4) ACL Denied `That’s all we know.`
 
 <img src="https://lh5.googleusercontent.com/-ZD30RC-EZIFU0Bfoye9JgJurgUUd7ZAJdeRQEBa1h9s46KExfsl3n35BDe0kMGDM7HYFmO0oilCPG_n9nl4OreXmQJBPJ5J8uWZCt91wDZMB2k7QRPzArveMg87u2ztT8yZKdq4" width=624 height=303 > </img>
 
