@@ -261,23 +261,16 @@ Insert your newly created SD card into your RPi.
 
 Power your RPi off, and on again. Immediately push the escape key when it boots and you should enter the UEFI menu:
 
-IMG_4900
-IMG_4900
-2048×1536 1.11 MB
+<img src=images/IMG_4900.JPEG width=2048 height=1536 > </img>
 
-IMG_4900
-IMG_4900
-2048×1536 1.11 MB
 Ensure the 3GB RAM limit is disabled:
 
-IMG_4901
-IMG_4901
-2048×1536 1020 KB
+<img src=images/IMG_4901.JPEG width=2048 height=1536 > </img>
+
 Under Boot Maintenance Manager -> Boot Options -> Change Boot Order specify PXEv4 as the first boot option:
 
-IMG_4902
-IMG_4902
-2048×1536 1.03 MB
+<img src=images/IMG_4901.JPEG width=2048 height=1536 > </img>
+
 Commit all changes, and exit. Make sure you save any configuration if asked.
 
 Power off the RPi, we’ll turn it on later once MAAS is ready.
