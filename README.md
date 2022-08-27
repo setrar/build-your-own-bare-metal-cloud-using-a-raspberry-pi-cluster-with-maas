@@ -502,7 +502,7 @@ Restart your RPi(s). It might pay to watch them boot using a screen. You should 
 
 After awhile, you should see your RPi show up in MAAS as a new machine:
 
-
+<img src="https://lh5.googleusercontent.com/AlZkJTr0nOsNSHEsjx_3tcu0pVPQVpVbQC7fbKaOjP15XgaoGjTXiJPDSCJvEOKuCGdHpFkjNRwyHh6SuUbqHG4jOGUe5IbzdlEpW_p5Mep6Ne-Hj3hUpOGGFv2GwX2doNzs38rR" width=624 height=221 > </img>
 
 ### Configure the power driver
 
