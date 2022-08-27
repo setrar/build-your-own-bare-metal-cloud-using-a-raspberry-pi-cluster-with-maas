@@ -455,7 +455,6 @@ You should then see a screen asking for some SSH keys. If you have launchpad or 
 
 - [ ] Check the ARM64 image has synchronised by clicking on the Images tab:
 
-
 [:x: Google 403. That’s an error.](https://lh5.googleusercontent.com/XrZDfvDYv1nNZ3UfcXGAyEKmQiUF5dSxlQTvsDbx3JESwql2VCVL9oGoyag5pbJHWW6HjWkYnBi_HNhYrsr4ybbC37CnR9Y3Kd2c_7DrzzoMj1tKqEez6sc74abbnTCGysN1hhuj) ACL Denied `That’s all we know.`
 
 <img src="https://lh5.googleusercontent.com/XrZDfvDYv1nNZ3UfcXGAyEKmQiUF5dSxlQTvsDbx3JESwql2VCVL9oGoyag5pbJHWW6HjWkYnBi_HNhYrsr4ybbC37CnR9Y3Kd2c_7DrzzoMj1tKqEez6sc74abbnTCGysN1hhuj" class="d-lazyload d-lazyload-hidden" width=624 height=265 > </img>
@@ -484,6 +483,9 @@ Now we need to configure DHCP on MAAS. Until now, DHCP should have been supplied
 
 Once you’ve disabled DHCP on your router, click on Subnets in the menu at the top. Identify your subnet, and then click on the link under the VLAN column:
 
+[:x: Google 403. That’s an error.](https://lh6.googleusercontent.com/mOx_fL5YQK7WhhfV5sutat2s01Djg9aL6mqmVe5-9VDlXq4VSaR_DkfdcwfItbUX-oFjWBGUUTfKvjDcYQoMzYQxeVFTZmhOUsHTOdq31e3iS-jtrvzcuRXBL0xS2tOMn9ztR-qU) ACL Denied `That’s all we know.`
+
+<img src="https://lh6.googleusercontent.com/mOx_fL5YQK7WhhfV5sutat2s01Djg9aL6mqmVe5-9VDlXq4VSaR_DkfdcwfItbUX-oFjWBGUUTfKvjDcYQoMzYQxeVFTZmhOUsHTOdq31e3iS-jtrvzcuRXBL0xS2tOMn9ztR-qU" alt="" width="624" height="141">
 
 Enable DHCP by clicking the Enable DHCP button:
 
