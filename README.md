@@ -468,14 +468,17 @@ Click settings in the top right, then commissioning. Make sure 20.04 focal is se
 
 Click deploy on the left menu, make sure 20.04 focal is selected, and click save if needed:
 
+[:x: Google 403. That’s an error.](https://lh3.googleusercontent.com/wAGPfDCnzR1mdm9CEaSiuFSfiKFDWVGXXmQoQF3uc0QiCdj-fa9uAqFfOwkYCjBUW5kS-6dNxSTgWALStl_vdF1YEX48WJm84MV_qy7jeIKCMDRlGhlpBR7u1DiadDcemdbs8yyf) ACL Denied `That’s all we know.`
 
+<img src="https://lh3.googleusercontent.com/wAGPfDCnzR1mdm9CEaSiuFSfiKFDWVGXXmQoQF3uc0QiCdj-fa9uAqFfOwkYCjBUW5kS-6dNxSTgWALStl_vdF1YEX48WJm84MV_qy7jeIKCMDRlGhlpBR7u1DiadDcemdbs8yyf" width=624 height=200 > </img>
 
-Configure DHCP
+### Configure DHCP
+
 Now we need to configure DHCP on MAAS. Until now, DHCP should have been supplied by your router and MAAS should have already discovered the network and it’s details. But now, we want MAAS to take over DHCP duties to make life simple.
 
-:warning: Disable the DHCP server on your router!
-MAAS will provide DHCP for the network, and if you leave a DHCP server running on
-your router you will run into issues.
+> :warning: Disable the DHCP server on your router!
+> MAAS will provide DHCP for the network, and if you leave a DHCP server running on
+> your router you will run into issues.
 
 Once you’ve disabled DHCP on your router, click on Subnets in the menu at the top. Identify your subnet, and then click on the link under the VLAN column:
 
