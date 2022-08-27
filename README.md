@@ -27,9 +27,10 @@ The Raspberry Pi 4 (RPi) with it’s relatively fast CPU cores, up to 8 GB of RA
 
 For years the community has wondered how to use MAAS with RPis, but hasn’t quite cracked it - until now, that is. Two problems needed to be overcome to use MAAS with RPis:
 
-Booting and installing an operating system with MAAS
-Power control
-Thanks to community members Giles, lory696, someo_new and others, these problems have been overcome.
+- [ ] Booting and installing an operating system with MAAS
+- [ ] Power control
+
+Thanks to community members [Giles](https://discourse.maas.io/u/gilesknap/summary), [lory696](https://discourse.maas.io/u/lory696/summary), [someo_new](https://discourse.maas.io/u/someo_new) and others, these problems have been overcome.
 
 
 
