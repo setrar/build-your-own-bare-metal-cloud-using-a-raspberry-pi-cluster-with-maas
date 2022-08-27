@@ -276,11 +276,11 @@ Commit all changes, and exit. Make sure you save any configuration if asked.
 
 Power off the RPi, we’ll turn it on later once MAAS is ready.
 
-### Install and configure maaspower
+## Install and configure maaspower
 
 Duration: 10:00
 
-maaspower 3 was created by Giles. maaspower does the following things:
+[maaspower](https://gilesknap.github.io/maaspower/main/index.html) [`3`](https://gilesknap.github.io/maaspower/main/index.html) was created by [Giles](https://discourse.maas.io/u/gilesknap/summary). maaspower does the following things:
 
 Provides a RESTful API interface compatible with the MAAS webhook driver 1
 Supports plugins to perform actions, for example running command line operations, or calling other APIs. These actions can correspond to power on, power off, and query operations
