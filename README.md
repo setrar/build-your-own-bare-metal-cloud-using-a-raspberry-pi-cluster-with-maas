@@ -24,7 +24,7 @@ Duration: 1:00
 
 These days it’s everybody’s dream to build their own bare metal K8s cluster. Whether it’s for learning purposes, running Blender, or even building out production infrastructure, people love running their own clusters.
 
-The Raspberry Pi 4 (RPi) with it’s relatively fast CPU cores, up to 8 GB of RAM, and tiny physical footprint presents a great option to run a cluster on. Provisioning all those RPis can be a pain however, and people have wanted to use tools like [MAAS](https://maas.io/) 5.
+The Raspberry Pi 4 (RPi) with it’s relatively fast CPU cores, up to 8 GB of RAM, and tiny physical footprint presents a great option to run a cluster on. Provisioning all those RPis can be a pain however, and people have wanted to use tools like [MAAS](https://maas.io/) [`5`](https://maas.io).
 
 For years the community has wondered how to use MAAS with RPis, but hasn’t quite cracked it - until now, that is. Two problems needed to be overcome to use MAAS with RPis:
 
@@ -77,7 +77,7 @@ You will need:
     - [ ] an external ‘dumb’ power supply - not Power Delivery. Your option will depend on how many RPIs you want to support on each MEGA4 Hub. See here 2 for details
     - [ ] Official Raspberry Pi USB C 15W supply - for 2 RPIs
     - [ ] A good quality ‘dumb’ 5V 5A (25W) supply with a USB C converter - for 3 RPIs
-A good quality 5V 10A (50W) supply soldered directly to the power rails - for 4 RPIs. e.g. https://uk.rs-online.com/web/p/embedded-switch-mode-power-supplies-smps/1618278 [9](https://uk.rs-online.com/web/p/embedded-switch-mode-power-supplies-smps/1618278)
+A good quality 5V 10A (50W) supply soldered directly to the power rails - for 4 RPIs. e.g. https://uk.rs-online.com/web/p/embedded-switch-mode-power-supplies-smps/1618278 [`9`](https://uk.rs-online.com/web/p/embedded-switch-mode-power-supplies-smps/1618278)
     - [ ] This RS power supply Part No. 161-8278 has been tested with MEGA4 and 4 RPIs
 <img src=images/RS-161-8278.png width=444 height=339 > </img>
     - [ ] A switch with enough ports to connect the control server, the RPis, and a router
