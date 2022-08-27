@@ -421,9 +421,10 @@ From your control server, open a browser and navigate to http://localhost:5240. 
 
 Log in with the username admin and password admin, and you should be greeted with the welcome screen. DNS in the DNS forwarder field should be prepopulated with 8.8.8.8, but you can change it if you like to another DNS provider:
 
-Screenshot from 2021-10-13 14-43-391266×986 86.8 KB
-Screenshot from 2021-10-13 14-43-391266×986 86.8 KB
-1266×986 86.8 KB
+<img src="images/Screenshot from 2021-10-13 14-43-39.png" width=1266 height=986 > </img>
+
+<img src="images/Screenshot from 2021-10-13 14-43-39" width=1266 height=986 > </img>
+
 Scroll down and click the green Continue button.
 
 The next screen you should see is the Images screen. Make sure ARM64 is ticked, then click update selection, followed by continue.
