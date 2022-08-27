@@ -299,7 +299,7 @@ Not shown in the picture above, but obviously needed, is an ethernet connection 
 
 ### Install maaspower
 
-Based on the instructions on this page, we can install maaspower. This involves creating a python virtual environment, activating it, installing maaspower, and verifying that it works.
+Based on the instructions on this [page](https://gilesknap.github.io/maaspower/main/tutorials/installation.html), we can install maaspower. This involves creating a python virtual environment, activating it, installing maaspower, and verifying that it works.
 
 We will install it in our home directory - using a terminal on your control server:
 
@@ -313,13 +313,13 @@ We will install it in our home directory - using a terminal on your control serv
     python3 -m pip install maaspower
 ```
 
-Verify it worked with maaspower –version. We won’t try to start maaspower yet, because we need a config file which we will create below.
+Verify it worked with `maaspower –version`. We won’t try to start maaspower yet, because we need a config file which we will create below.
 
-Note that, if you leave your terminal and come back later, you will need to activate the virtual environment again: source ~/maaspower/bin/activate.
+Note that, if you leave your terminal and come back later, you will need to activate the virtual environment again: `source ~/maaspower/bin/activate`.
 
-## Configure maaspower
+### Configure maaspower
 
-We need to configure maaspower so that it can map REST calls from MAAS to physical ports on the MEGA4. The configuration file needed might look like the following if you have two RPis. Notice the subtle difference in the uhubctl commands, with the -p parameter controlling which physical USB port is being referenced.
+We need to configure maaspower so that it can map REST calls from MAAS to physical ports on the MEGA4. The configuration file needed might look like the following if you have two RPis. Notice the subtle difference in the `uhubctl` commands, with the -p parameter controlling which physical USB port is being referenced.
 
 ```yaml
 # yaml-language-server: $schema=maaspower.schema.json
