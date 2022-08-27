@@ -423,24 +423,29 @@ Log in with the username admin and password admin, and you should be greeted wit
 
 <img src="images/Screenshot from 2021-10-13 14-43-39.png" width=641 height=500 > </img>
 
-<img src="https://lh6.googleusercontent.com/jfBRDUeknq8-Gk4c3YYPVVMmq0VRSvY0hJcWSaz43OcDOXFshQdMMOn-e3Q_Ue5fqu-9YDSQra2HUaqYof0A29vggPkYil7aWZzYB0KZTKPcnulmMBaeCZdTATxjrAM09AwjXaEf" width=624 height=476 > </img>
-
-[:x: Broken Link](https://lh6.googleusercontent.com/jfBRDUeknq8-Gk4c3YYPVVMmq0VRSvY0hJcWSaz43OcDOXFshQdMMOn-e3Q_Ue5fqu-9YDSQra2HUaqYof0A29vggPkYil7aWZzYB0KZTKPcnulmMBaeCZdTATxjrAM09AwjXaEf) ACL Denied `That’s all we know.`
-
 Scroll down and click the green Continue button.
 
 The next screen you should see is the Images screen. Make sure ARM64 is ticked, then click update selection, followed by continue.
 
+<img src="https://lh6.googleusercontent.com/jfBRDUeknq8-Gk4c3YYPVVMmq0VRSvY0hJcWSaz43OcDOXFshQdMMOn-e3Q_Ue5fqu-9YDSQra2HUaqYof0A29vggPkYil7aWZzYB0KZTKPcnulmMBaeCZdTATxjrAM09AwjXaEf" width=624 height=476 > </img>
 
+[:x: Broken Link](https://lh6.googleusercontent.com/jfBRDUeknq8-Gk4c3YYPVVMmq0VRSvY0hJcWSaz43OcDOXFshQdMMOn-e3Q_Ue5fqu-9YDSQra2HUaqYof0A29vggPkYil7aWZzYB0KZTKPcnulmMBaeCZdTATxjrAM09AwjXaEf) ACL Denied `That’s all we know.`
 
 You should then see a screen asking for some SSH keys. If you have launchpad or github, you can specify your username here and MAAS will automatically import your public key. Otherwise, you can generate a keypair in a terminal window:
 
-Leave the browser window open
-generate a key-pair: ssh-keygen -t rsa -b 4096
-run cat ~/.ssh/id_rsa.pub, carefully copy the displayed key, and paste it into the MAAS interface in your browse by selecting “Upload” under Source:
-click the green import button
-click the green go to dashboard button, and you should find yourself on the main machines page: 
-Check the ARM64 image has synchronised by clicking on the Images tab:
+- [ ] Leave the browser window open
+- [ ] generate a key-pair: `ssh-keygen -t rsa -b 4096`
+- [ ] run `cat ~/.ssh/id_rsa.pub`, carefully copy the displayed key, and paste it into the MAAS interface in your browse by selecting “Upload” under Source:
+
+<img src="https://lh4.googleusercontent.com/o9nZL1f43dt4XcXQNv6g7iaE4r4kYiCwTA6dBP6UOhmAPIVKvMGyTSdgf95jnfvOx59RWsDaGPgWzuo2wPYZAjoCA0Pnk9ur-qZZaFMsOj28yh88tdbtHQ6X4aA0_V1WI20QWdI1" width=605 height=500 > </img>
+
+[:x: Broken Link](https://lh6.googleusercontent.com/jfBRDUeknq8-Gk4c3YYPVVMmq0VRSvY0hJcWSaz43OcDOXFshQdMMOn-e3Q_Ue5fqu-9YDSQra2HUaqYof0A29vggPkYil7aWZzYB0KZTKPcnulmMBaeCZdTATxjrAM09AwjXaEf) ACL Denied `That’s all we know.`
+
+- [ ] click the green import button
+- [ ] click the green go to dashboard button, and you should find yourself on the main machines page: 
+
+
+- [ ] Check the ARM64 image has synchronised by clicking on the Images tab:
 
 
 
