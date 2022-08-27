@@ -101,8 +101,11 @@ You’ll need a keyboard and a screen during this step.
 
 Use the [guide here from community member Giles Knap](https://github.com/gilesknap/IaC-at-home/blob/main/nas/03-maas/MakeUefiSd.md) [`14`](https://github.com/gilesknap/IaC-at-home/blob/main/nas/03-maas/MakeUefiSd.md) to prepare your RPIs. When you are done, you can move on to the next step. Below you can see an example
 
-Example following Gile’s guide:
-Identifying the correct drive (based off SD card size of 32 GB)
+#### Example following Gile’s guide:
+
+### Identifying the correct drive (based off SD card size of 32 GB)
+
+```
 ubuntu@proud-possum:~$ lsblk
 NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
 loop0         7:0    0 110.8M  1 loop /snap/core/12725
@@ -123,6 +126,7 @@ nvme0n1     259:0    0 931.5G  0 disk
 ├─nvme0n1p1 259:1    0     1M  0 part 
 └─nvme0n1p2 259:2    0 931.5G  0 part /
 Here we can see it is sda based off the disk size beacause we know the USB stick is 2GB in size.
+```
 
 Option 1 - Ubuntu 20.04 - Download the card maker script and run it
 This option will give you a UEFI card that will work with Ubuntu 20.04 only.
