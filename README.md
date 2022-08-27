@@ -99,7 +99,7 @@ Prepare SD cards with RPi UEFI
 Configure each RPI’s UEFI settings
 You’ll need a keyboard and a screen during this step.
 
-Use the [guide here from community member Giles Knap](https://github.com/gilesknap/IaC-at-home/blob/main/nas/03-maas/MakeUefiSd.md) [:one::four:](https://github.com/gilesknap/IaC-at-home/blob/main/nas/03-maas/MakeUefiSd.md) to prepare your RPIs. When you are done, you can move on to the next step. Below you can see an example
+Use the [guide here from community member Giles Knap](https://github.com/gilesknap/IaC-at-home/blob/main/nas/03-maas/MakeUefiSd.md) [`14`](https://github.com/gilesknap/IaC-at-home/blob/main/nas/03-maas/MakeUefiSd.md) to prepare your RPIs. When you are done, you can move on to the next step. Below you can see an example
 
 Example following Gile’s guide:
 Identifying the correct drive (based off SD card size of 32 GB)
