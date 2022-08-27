@@ -17,7 +17,7 @@ Taken from the below blogs:
 | [Overview](README.md#Overview) |
 | [What you'll learn](README.md#what-youll-learn)  |
 | [Prepare RPis to be managed by MAAS](README.md#prepare-rpis-to-be-managed-by-maas) |
-| [](README.md#install-and-configure-maaspower) |
+| [Install and configure maaspower](README.md#install-and-configure-maaspower) |
 
 ## Overview
 
