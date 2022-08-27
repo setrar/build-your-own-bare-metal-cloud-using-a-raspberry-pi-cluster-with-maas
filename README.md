@@ -421,7 +421,7 @@ From your control server, open a browser and navigate to http://localhost:5240. 
 
 Log in with the username admin and password admin, and you should be greeted with the welcome screen. DNS in the DNS forwarder field should be prepopulated with 8.8.8.8, but you can change it if you like to another DNS provider:
 
-<img src="images/Screenshot from 2021-10-13 14-43-39.png" width=1266 height=986 > </img>
+<img src="images/Screenshot from 2021-10-13 14-43-39.png" width=641 height=500 > </img>
 
 <img src="images/Screenshot from 2021-10-13 14-43-39" width=1266 height=986 > </img>
 
