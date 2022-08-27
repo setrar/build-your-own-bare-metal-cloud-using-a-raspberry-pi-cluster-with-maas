@@ -431,9 +431,9 @@ Scroll down and click the green Continue button.
 
 The next screen you should see is the Images screen. Make sure ARM64 is ticked, then click update selection, followed by continue.
 
-<img src="https://lh6.googleusercontent.com/jfBRDUeknq8-Gk4c3YYPVVMmq0VRSvY0hJcWSaz43OcDOXFshQdMMOn-e3Q_Ue5fqu-9YDSQra2HUaqYof0A29vggPkYil7aWZzYB0KZTKPcnulmMBaeCZdTATxjrAM09AwjXaEf" width=624 height=476 > </img>
+[:x: Google 403. That’s an error.](https://lh6.googleusercontent.com/jfBRDUeknq8-Gk4c3YYPVVMmq0VRSvY0hJcWSaz43OcDOXFshQdMMOn-e3Q_Ue5fqu-9YDSQra2HUaqYof0A29vggPkYil7aWZzYB0KZTKPcnulmMBaeCZdTATxjrAM09AwjXaEf) ACL Denied `That’s all we know.`
 
-[:x: Broken Link](https://lh6.googleusercontent.com/jfBRDUeknq8-Gk4c3YYPVVMmq0VRSvY0hJcWSaz43OcDOXFshQdMMOn-e3Q_Ue5fqu-9YDSQra2HUaqYof0A29vggPkYil7aWZzYB0KZTKPcnulmMBaeCZdTATxjrAM09AwjXaEf) ACL Denied `That’s all we know.`
+<img src="https://lh6.googleusercontent.com/jfBRDUeknq8-Gk4c3YYPVVMmq0VRSvY0hJcWSaz43OcDOXFshQdMMOn-e3Q_Ue5fqu-9YDSQra2HUaqYof0A29vggPkYil7aWZzYB0KZTKPcnulmMBaeCZdTATxjrAM09AwjXaEf" width=624 height=476 > </img>
 
 You should then see a screen asking for some SSH keys. If you have launchpad or github, you can specify your username here and MAAS will automatically import your public key. Otherwise, you can generate a keypair in a terminal window:
 
@@ -441,17 +441,23 @@ You should then see a screen asking for some SSH keys. If you have launchpad or 
 - [ ] generate a key-pair: `ssh-keygen -t rsa -b 4096`
 - [ ] run `cat ~/.ssh/id_rsa.pub`, carefully copy the displayed key, and paste it into the MAAS interface in your browse by selecting “Upload” under Source:
 
-<img src="https://lh4.googleusercontent.com/o9nZL1f43dt4XcXQNv6g7iaE4r4kYiCwTA6dBP6UOhmAPIVKvMGyTSdgf95jnfvOx59RWsDaGPgWzuo2wPYZAjoCA0Pnk9ur-qZZaFMsOj28yh88tdbtHQ6X4aA0_V1WI20QWdI1" width=605 height=500 > </img>
+[:x: Google 403. That’s an error.](https://lh6.googleusercontent.com/jfBRDUeknq8-Gk4c3YYPVVMmq0VRSvY0hJcWSaz43OcDOXFshQdMMOn-e3Q_Ue5fqu-9YDSQra2HUaqYof0A29vggPkYil7aWZzYB0KZTKPcnulmMBaeCZdTATxjrAM09AwjXaEf) ACL Denied `That’s all we know.`
 
-[:x: Broken Link](https://lh6.googleusercontent.com/jfBRDUeknq8-Gk4c3YYPVVMmq0VRSvY0hJcWSaz43OcDOXFshQdMMOn-e3Q_Ue5fqu-9YDSQra2HUaqYof0A29vggPkYil7aWZzYB0KZTKPcnulmMBaeCZdTATxjrAM09AwjXaEf) ACL Denied `That’s all we know.`
+<img src="https://lh4.googleusercontent.com/o9nZL1f43dt4XcXQNv6g7iaE4r4kYiCwTA6dBP6UOhmAPIVKvMGyTSdgf95jnfvOx59RWsDaGPgWzuo2wPYZAjoCA0Pnk9ur-qZZaFMsOj28yh88tdbtHQ6X4aA0_V1WI20QWdI1" width=605 height=500 > </img>
 
 - [ ] click the green import button
 - [ ] click the green go to dashboard button, and you should find yourself on the main machines page: 
 
+[:x: Google 403. That’s an error.](https://lh3.googleusercontent.com/UaFmxqMFyL1Dv4aP0FfGmT9lR5OJ4Hpv0_Aw_ygLqWDdnozdBOVxx7rB5aonTtp3rElDwHgvm2rTPCnBhSkFcBe5ON4-F9t0Qh0g_jVJPhZdZxVoziPYaPdfWBMreQvNX7SNJXyW) ACL Denied `That’s all we know.`
+
+<img src="https://lh3.googleusercontent.com/UaFmxqMFyL1Dv4aP0FfGmT9lR5OJ4Hpv0_Aw_ygLqWDdnozdBOVxx7rB5aonTtp3rElDwHgvm2rTPCnBhSkFcBe5ON4-F9t0Qh0g_jVJPhZdZxVoziPYaPdfWBMreQvNX7SNJXyW" width=605 height=500 > </img>
 
 - [ ] Check the ARM64 image has synchronised by clicking on the Images tab:
 
 
+[:x: Google 403. That’s an error.](https://lh5.googleusercontent.com/XrZDfvDYv1nNZ3UfcXGAyEKmQiUF5dSxlQTvsDbx3JESwql2VCVL9oGoyag5pbJHWW6HjWkYnBi_HNhYrsr4ybbC37CnR9Y3Kd2c_7DrzzoMj1tKqEez6sc74abbnTCGysN1hhuj) ACL Denied `That’s all we know.`
+
+<img src="https://lh5.googleusercontent.com/XrZDfvDYv1nNZ3UfcXGAyEKmQiUF5dSxlQTvsDbx3JESwql2VCVL9oGoyag5pbJHWW6HjWkYnBi_HNhYrsr4ybbC37CnR9Y3Kd2c_7DrzzoMj1tKqEez6sc74abbnTCGysN1hhuj" class="d-lazyload d-lazyload-hidden" width=624 height=265 > </img>
 
 Click settings in the top right, then commissioning. Make sure 20.04 focal is selected, and that the hwe kernel is selected as the default minimum kernel version. Once done, click save:
 
