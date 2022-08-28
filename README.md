@@ -539,11 +539,11 @@ After awhile, under the machine details screen -> commissioning tab, you should 
 
 <img src="https://lh3.googleusercontent.com/ZJzWn6cTFqF-uP00sxaTzJoAu56esTI3rQp6RvE7kCUesHo-lOYsszG5_3PQSIS38zScqt_QeJReqOpHwNDZsmpSqWZGcEBgSfOACryxg446taCj-Q8kcXM5pk_4zED9ANVO1Epp" width=624 height=265 > </img>
 
-> :warning: Do not proceed until removing the SD card configuration from MAAS!
+> :warning: `Do not proceed until removing the SD card configuration from MAAS!`
 >
 > It is VERY IMPORTANT that you remove the SD card partitions and the physical drive itself from the storage section for the RPi, otherwise, MAAS will try to overwrite the UEFI that we installed earlier.
 
-> :warning: If you accidentally deploy without doing this, you will have to rebuild UEFI on the SD card and reconfigure it.
+> :warning: `If you accidentally deploy without doing this, you will have to rebuild UEFI on the SD card and reconfigure it.`
 
 This next part is a little bit tricky, but our goal is to make MAAS forget about the SD card.
 
