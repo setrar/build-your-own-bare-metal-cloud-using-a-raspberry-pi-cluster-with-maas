@@ -561,27 +561,27 @@ Under available disks and partitions, remove the sd card:
 
 Now click change storage layout, set it to flat, and you should see your USB drive under file systems. Note, there should be no mention of the sd card anymore on this screen.
 
-
+<img src="https://lh6.googleusercontent.com/zkB6ZvmBujtkJckmf5O7a1ZTvfa1VI9C8JEiUKV_ptpt-eui6wBYFzuB-K_kv8qY90V98IS1uqZvNt6mKfPfAbp2fBkMeQUw9PbhfuIDolWSPvdJjTfRrrxeDvTi8EPKCqZvwNyR" width=624 height=339 > </img>
 
 Now the RPi is ready to deploy, return to the machine listing page, select the RPi, and click deploy under Take action:
 
-
+<img src="https://lh3.googleusercontent.com/8sO8YjS4oB_UG3Je3GW3TqHtIbqLpxbthLh5v8CFzHbog_sHZfTN8sRo0qIzljtwV7qCmdiFYGWlJAopi98I2ibm07d-CX7Qec7yVp2FRQ9J4TkUt_39hREU99jWl2vY-lFFVtCb" width=624 height=261 > </img>
 
 Exciting times ahead - we’re almost done deploying our first RPi with MAAS! Ensure that the focal hwe kernel is selected and click Start deployment for machine:
 
-
+<img src="https://lh5.googleusercontent.com/HV27iQ4E0mo4bia-ulPjYc7hErYmCa4SE7GCpZ1WLamm-1F49rLGf2bBkx0wPBr7nVixi1m2DkuRUOG9mMl9vYMHKTYrEO0J7x8RE8U90dc6BPDrcO4MgFaxYLgkE6XHpxvzKoUO" width=624 height=301 > </img>
 
 While it’s deploying (which may take awhile), you should see status changes on the machine listing page:
 
-
+<img src="https://lh6.googleusercontent.com/eZq0uX5l1Uo7Ca1edXeYDS7S_-mUuVGgRmkea-uOsXrbzL3aDp_LZR26O8fSqjFvhRFcDcEfet2swE_0tru9e4iEZO17fNJbD9JQYvLv_4WZh-sYruswfjmZhOLNsX30CTAg_5w4" width=624 height=173 > </img>
 
 When the deployment is finished, the RPi will restart. You should also see that it successfully deployed from the machine details page:
 
-
+<img src="https://lh4.googleusercontent.com/tBTzD2GymeyDS0ZF3LEAh9gsjpZWMIGtdAYGSrYRZjTftAGyt0438mouzjxdQjT7dNxucn3SXbKxF9EbohmhKpK8mvcORsq4fsn34wjIfPiueZzwCWukCC0Gy0NFMx5xDIz1TmK5" width=624 height=392 > </img>
 
 You should now be able to ssh to the RPi from your control server where you generated your ssh keys (you can always see the IP address assigned from the MAAS machine listing page):
 
-
+<img src="https://lh3.googleusercontent.com/dGveZlJHMYTCm28Ky8COR-b-HFKDPvsMUxWle3qEnXuPOBmexPaC7iL48JFPHTz01qM_J41nKoi4pnOITaJ9nrHC95ISgbBAQ5pGalXbpB-qdmmwdb2o__9lXZiCfyMgv56sHSJu" width=624 height=283 > </img>
 
 Congratulations! You have your first RPi now under the control of MAAS!
 
