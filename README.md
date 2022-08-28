@@ -23,13 +23,14 @@ They are linked to Anton Smith's Google Account
 
 ---
 
-| Table of Contents              |
-|--------------------------------|
-| [Overview](README.md#Overview) |
-| [What you'll learn](README.md#what-youll-learn)  |
+| Table of Contents                                                                  | Duration |
+|------------------------------------------------------------------------------------|---------:|
+| [Overview](README.md#Overview)                                                     | 1:00 |
+| [What you'll learn](README.md#what-youll-learn)                                    |
 | [Prepare RPis to be managed by MAAS](README.md#prepare-rpis-to-be-managed-by-maas) |
-| [Install and configure maaspower](README.md#install-and-configure-maaspower) |
-| [Install and configure MAAS](README.md#install-and-configure-maas) |
+| [Install and configure maaspower](README.md#install-and-configure-maaspower)       |
+| [Install and configure MAAS](README.md#install-and-configure-maas)                 |
+| [Summary and things to try next](README.md#summary-and-things-to-try-next)         |
 
 ## Overview
 
