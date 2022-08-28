@@ -18,7 +18,8 @@ They are linked to Anton Smith's Google Account
 
 ---
 
-- [ ] [Bare metal Kubernetes hands on tutorial with MAAS and Juju](https://www.youtube.com/watch?v=sLADei_c9Qg) bare metal Kubernetes cluster using just a single computer :computer: with Anton Smith
+- [ ] [Bare metal Kubernetes hands on tutorial with MAAS and Juju](https://www.youtube.com/watch?v=sLADei_c9Qg) using just a single computer :computer: with Anton Smith
+- [ ] [:roll_of_paper: Bare metal Kubernetes with MAAS, LXD, and Juju](https://github.com/antongisli/maas-baremetal-k8s-tutorial)
 
 ---
 
