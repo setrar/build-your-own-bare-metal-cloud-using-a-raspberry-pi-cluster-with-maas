@@ -513,15 +513,15 @@ After awhile, you should see your RPi show up in MAAS as a new machine:
 
 For MAAS to control the power status of the RPi, we need to configure it with a webhook driver that will use the maas power service we created earlier. Click on the machine, then configuration and edit beside the power configuration:
 
-
+<img src="https://lh6.googleusercontent.com/1xZjj7dKI5ikQQ2bI2Byo98QQsmET0lQrwuuqnve1hULcyido63vFseRj0b-V92PYezcrK-0bu3LmamcU58pxL9GG3a5uNSizjXkfV8AL_pVyNt7LpGUCy_ai8zO_rkevRNd4Zey" width=624 height=63 > </img>
 
 Select webhook, and then fill in the details which should match the maas power configuration we setup earlier (note, in the example below we are using rpi2 in the path, as this is the second RPi being added). Save the changes when finished:
 
-
+<img src="https://lh3.googleusercontent.com/iUrr962gTZkiS3XqbHmQZCTdJCHyiFajQ9gFXgVpGntuBj8NHtmyOA6uEku3MsC9XB_JEhAJQYBDRSNE7WQr8b_xOuGpShuzHyHOheyMyX3BOT9s-DJyBlYpdkYudRlFWc9W14Zo" width=624 height=392 > </img>
 
 Check if the power control is working by returning to the machines screen and under the power column clicking check power:
 
-
+<img src="https://lh3.googleusercontent.com/8URE0Okdl5j9WYcZxq71vJQ5UNPmTO1K51gC4tQTKrfBKLlM_WsGwGL-II_ASNpxna3y9RWVPLV_2a6JjlIHKV2_O3Thgk_EFsA6dzF7gvOCjsj0pAtuRKKql09a4AXULElWx3lD" width=569 height=291 > </img>
 
 The power status should change to either On or Off.
 
