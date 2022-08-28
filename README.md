@@ -30,7 +30,7 @@ They are linked to Anton Smith's Google Account
 | [Prepare RPis to be managed by MAAS](README.md#prepare-rpis-to-be-managed-by-maas) |     2:00 |
 | [Install and configure maaspower](README.md#install-and-configure-maaspower)       |    10:00 |
 | [Install and configure MAAS](README.md#install-and-configure-maas)                 |    10:00 |
-| [Summary and things to try next](README.md#summary-and-things-to-try-next)         |
+| [Summary and things to try next](README.md#summary-and-things-to-try-next)         |     1:00 |
 
 ## Overview
 
