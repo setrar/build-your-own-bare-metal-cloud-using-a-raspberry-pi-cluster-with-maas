@@ -589,16 +589,18 @@ Repeat this process for each RPi. Once they are all commissioned and you have ed
 
 You’re now ready to install anything you want on your RPi cluster.
 
-Summary and things to try next
+## Summary and things to try next
+
 Duration: 1:00
 
 Now you’ve got 1 or more RPis managed by MAAS, what’s next?
 
 Here are a few ideas:
 
-Install MicroK8s using Juju. You’ll need to register MAAS as a cloud provider for Juju first. You might need to make a few changes first to enable cgroup support. You can get inspiration and detailed steps for how to use Juju and MAAS together from the MAAS Bare Metal K8s tutorial 3
-Install MicroK8s using snaps
-Try Spectro Cloud with the MAAS ClusterAPI provider
-Obtain a managed PoE switch along with some PoE hats for the RPi, and use it with maas power to control power for the RPIs.
-run maas power in a docker container - you could try to follow these instructions 2.
-More tutorials are always welcome on the maas.io page 5 from any contributors!
+  - [ ] Install MicroK8s using Juju. You’ll need to register MAAS as a cloud provider for Juju first. You might need to make a few changes first to enable cgroup support. You can get inspiration and detailed steps for how to use Juju and MAAS together from the MAAS Bare Metal K8s tutorial 3
+  - [ ] Install MicroK8s using snaps
+  - [ ] Try Spectro Cloud with the MAAS ClusterAPI provider
+  - [ ] Obtain a managed PoE switch along with some PoE hats for the RPi, and use it with maas power to control power for the RPIs.
+  - [ ] run maas power in a docker container - you could try to follow [these instructions](https://gilesknap.github.io/maaspower/main/tutorials/installation.html#install-using-the-container) [`2`](https://gilesknap.github.io/maaspower/main/tutorials/installation.html#install-using-the-container).
+
+More tutorials are always welcome on the [maas.io page](https://maas.io/) [`5`](https://maas.io/) from any contributors!
