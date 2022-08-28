@@ -549,14 +549,15 @@ This next part is a little bit tricky, but our goal is to make MAAS forget about
 
 Remove the partitions:
 
-
+<img src="https://lh6.googleusercontent.com/1OOYupRjd6PBuIOaWcaR1lpGQz4YbCH2HlOZrTqFEAFQPLKJmeJ2tm7g7gWaYIJL6AB7TBmmYjwv9Ig2ntXs5WvjH9Ii4p4hebdvWHgdI5xsz3czyqOmE4jqqEiW_Wf2vbnlEBXl" width=624 height=241 > </img>
 
 Once they are removed the screen should look like this:
 
+<img src="https://lh5.googleusercontent.com/oMozjX2tdbqL9pGlsqqKOTbje8hZrrBHzBlUvTczTpJuYCAmfxN8kohbmXA70AKFCGZfVqvsRbIn68_RHNP-xTeo-E8vo5oeO_1-I4Tnh4XNz97NoCFDoIq3Tw9v0E6wDNbSecjL" width=624 height=337 > </img>
 
 Under available disks and partitions, remove the sd card:
 
-
+<img src="https://lh5.googleusercontent.com/-Sb4BuJUcf0XodnbocNTX_1TlaqGYTPoo-TIhUKQFGmH3IqkfR_3gPnOnnt9pudsw9ljcdOD6OVg5ierQeETBuxg4fF_lYD-87L6lboQaIKa9-HHjaOA4WhKhHD-3k54ickPV5S5" width=624 height=224 > </img>
 
 Now click change storage layout, set it to flat, and you should see your USB drive under file systems. Note, there should be no mention of the sd card anymore on this screen.
 
