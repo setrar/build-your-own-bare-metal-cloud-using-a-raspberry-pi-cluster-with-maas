@@ -597,7 +597,7 @@ Now you’ve got 1 or more RPis managed by MAAS, what’s next?
 
 Here are a few ideas:
 
-  - [ ] Install MicroK8s using Juju. You’ll need to register MAAS as a cloud provider for Juju first. You might need to make a few changes first to enable cgroup support. You can get inspiration and detailed steps for how to use Juju and MAAS together from the MAAS Bare Metal K8s tutorial 3
+  - [ ] Install MicroK8s using Juju. You’ll need to register MAAS as a cloud provider for Juju first. You might need to make a few changes first to [enable cgroup support](https://microk8s.io/docs/install-alternatives#heading--arm). You can get inspiration and detailed steps for how to use Juju and MAAS together from the [MAAS Bare Metal K8s tutorial] [`3`](https://tinyurl.com/baremetalcloud)
   - [ ] Install MicroK8s using snaps
   - [ ] Try Spectro Cloud with the MAAS ClusterAPI provider
   - [ ] Obtain a managed PoE switch along with some PoE hats for the RPi, and use it with maas power to control power for the RPIs.
