@@ -527,20 +527,21 @@ The power status should change to either On or Off.
 
 Now set the power to off. Then select the RPi (tick box), and click take action and commission.
 
-
+<img src="https://lh3.googleusercontent.com/S1-ap_t-f3TaGEdtjpLmKMU4799IgXj8NzSkHfRgwcMqBiDQuO4ekli7VI44B3HoF9Mm0FWREMiCT-meNTXpSdel_-fydxJGChm0nAejekNSxUclGJAEhsK4pMNqjFttIYciDp6T" width=624 height=151 > </img>
 
 After this, you should see the RPi turn on, and MAAS will report that it has started commissioning:
 
-
+<img src="https://lh5.googleusercontent.com/MKqeNVUuAJnGtoEQxuzVi6McA3nkCASt84z78AF6oY_BMUURYDWLR1M4i7Kqvyhh6PeAmxM__o_7PsLMa_zZD_Bv-amHgpnzUf2qrdu7i3SZ-8K08x9kL3hZKu55Jp9bHkTa_B3g" alt="" width="624" height="145">
 
 You should see a similar boot process on the screen for your RPi.
 
 After awhile, under the machine details screen -> commissioning tab, you should see the following:
 
+<img src="https://lh3.googleusercontent.com/ZJzWn6cTFqF-uP00sxaTzJoAu56esTI3rQp6RvE7kCUesHo-lOYsszG5_3PQSIS38zScqt_QeJReqOpHwNDZsmpSqWZGcEBgSfOACryxg446taCj-Q8kcXM5pk_4zED9ANVO1Epp" width=624 height=265 > </img>
 
-
-:warning: Do not proceed until removing the SD card configuration from MAAS!
-It is VERY IMPORTANT that you remove the SD card partitions and the physical drive itself from the storage section for the RPi, otherwise, MAAS will try to overwrite the UEFI that we installed earlier.
+> :warning: Do not proceed until removing the SD card configuration from MAAS!
+>
+> It is VERY IMPORTANT that you remove the SD card partitions and the physical drive itself from the storage section for the RPi, otherwise, MAAS will try to overwrite the UEFI that we installed earlier.
 
 > :warning: If you accidentally deploy without doing this, you will have to rebuild UEFI on the SD card and reconfigure it.
 
