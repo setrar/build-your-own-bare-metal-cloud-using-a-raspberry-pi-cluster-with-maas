@@ -473,7 +473,6 @@ Click deploy on the left menu, make sure 20.04 focal is selected, and click save
 Now we need to configure DHCP on MAAS. Until now, DHCP should have been supplied by your router and MAAS should have already discovered the network and it’s details. But now, we want MAAS to take over DHCP duties to make life simple.
 
 > :warning: `Disable the DHCP server on your router!`
-> 
 > MAAS will provide DHCP for the network, and if you leave a DHCP server running on
 > your router you will run into issues.
 
@@ -542,7 +541,7 @@ After awhile, under the machine details screen -> commissioning tab, you should 
 :warning: Do not proceed until removing the SD card configuration from MAAS!
 It is VERY IMPORTANT that you remove the SD card partitions and the physical drive itself from the storage section for the RPi, otherwise, MAAS will try to overwrite the UEFI that we installed earlier.
 
-:warning: If you accidentally deploy without doing this, you will have to rebuild UEFI on the SD card and reconfigure it.
+> :warning: If you accidentally deploy without doing this, you will have to rebuild UEFI on the SD card and reconfigure it.
 
 This next part is a little bit tricky, but our goal is to make MAAS forget about the SD card.
 
