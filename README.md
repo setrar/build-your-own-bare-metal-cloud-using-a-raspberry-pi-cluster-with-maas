@@ -147,7 +147,7 @@ Here we can see it is sda based off the disk size because we know the USB stick 
 
 This option will give you a UEFI card that will work with Ubuntu 20.04 only.
 
-:warning: If you want to use 21.10 then choose Option 2 below. Don’t do both Option 1 and Option 2 .
+> :warning: If you want to use 21.10 then choose Option 2 below. Don’t do both Option 1 and Option 2 .
 
 ```bash
 ubuntu@proud-possum:~$ curl -LO https://raw.githubusercontent.com/gilesknap/IaC-at-home/main/nas/03-maas/uefi.make.sh
