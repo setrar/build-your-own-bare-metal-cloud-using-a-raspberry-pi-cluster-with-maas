@@ -235,7 +235,7 @@ It is possible to use Ubuntu 21.10, but it requires a little bit more work. To g
  - [ ] Download the a deb package from Ubuntu and extract the DTB needed
  - [ ] Replace the DTB file and then create the SD card
 
-> :warning: This tutorial was written for 20.04 Focal. If you choose to use 21.10, then in all the sections below where 20.04 is referenced, you should change it to use 21.10. For example, syncing 21.10 images, deploying 21.10, etc.
+> :warning: ** This tutorial was written for 20.04 Focal. If you choose to use 21.10, then in all the sections below where 20.04 is referenced, you should change it to use 21.10. For example, syncing 21.10 images, deploying 21.10, etc. **
 
 ```bash
 ubuntu@proud-possum:~$ curl -LO https://raw.githubusercontent.com/gilesknap/IaC-at-home/main/nas/03-maas/uefi.make.sh
