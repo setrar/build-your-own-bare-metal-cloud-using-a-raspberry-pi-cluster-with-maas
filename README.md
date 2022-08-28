@@ -50,8 +50,8 @@ In this tutorial, we will put all their efforts together and show you how to bui
 
 This tutorial is not meant to be exhaustive for all the possible ways to build a cluster, but should teach you all the basics needed in order for you to try other techniques. For example, perhaps you’d like to use a PoE switch instead of the UUGear Mega4 USB hub used in this tutorial. At the end, you might end up with something that looks a bit like this:
 
-:warning: DISCLAIMER
-This tutorial is provided “as is” and with no warranty. It makes use of the RPi UEFI project and uses the generic ARM64 kernel and image from Canonical. Canonical does not officially support the RPi UEFI project nor does it support using the generic ARM64 kernel and image on Raspberry Pis.
+> :warning: DISCLAIMER
+> This tutorial is provided “as is” and with no warranty. It makes use of the RPi UEFI project and uses the generic ARM64 kernel and image from Canonical. > Canonical does not officially support the RPi UEFI project nor does it support using the generic ARM64 kernel and image on Raspberry Pis.
 
 With the above disclaimer out of the way, let’s get started!
 
