@@ -2,7 +2,7 @@
 
 Taken from the below blogs:
 
-:warning: The purpose of this repository is to go through the blog (refreshin the missing images) below while waiting for Canonical to fix the Anton Smith's personal page who left for [SpectroCloud](https://www.spectrocloud.com/)
+> :warning: The purpose of this repository is to go through the blog (refreshin the missing images) below while waiting for Canonical to fix the Anton Smith's personal page who left for [SpectroCloud](https://www.spectrocloud.com/)
 
 When clicking on the missing images, the links say : 
 
